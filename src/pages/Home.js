@@ -8,6 +8,7 @@ const Home = () => {
       <CarouselSlider />
     </div>
     <div className='mt-3 text-center'><h1>Dashboard Page</h1></div>
+    <br /><br /><br />
     </>
   );
 };
