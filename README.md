@@ -1,6 +1,5 @@
 Project Features
-### 
-1. Build User Registration Form
+### 1. Build User Registration Form
 
 Create a user registration form with fields for username, email, and passwo### rd. Validate inputs and display appropriate error messages.
 
@@ -8,52 +7,44 @@ Implement the user registration form UI.
 Validate the form inputs and display error messages.
 Integrate form submission with a mock API call (simulated delay).
 Add a success message upon successful registration.
-### 
-2. Implement Login and Signup Functionality Using React/Redux
+### 2. Implement Login and Signup Functionality Using React/Redux
 
 Show the dashboard upon successful login.
-### 
-3. Implement Carousels Using React
+### 3. Implement Carousels Using React
 
 Design an image carousel that allows users to navigate through a collection of images.
 
 React component composition.
 State management.
 Event handling.
-### 
-4. Implement Accordion
+### 4. Implement Accordion
 
 Design an accordion component that allows users to expand and collapse sections to view content.
 
 Implement the accordion component UI.
 Ensure only one section can be expanded at a time.
 Add animations for smooth transitions.
-### 
-5. Implement Pagination
+### 5. Implement Pagination
 
 Build a pagination component that fetches and displays data from an API, showing a fixed number of items per page.
 
 Implement the pagination component UI.
 Fetch data from a mock API (simulated delay).
 Display a fixed number of items per page and update pagination controls accordingly.
-### 
-6. Implement Stepper
+### 6. Implement Stepper
 
 Design a stepper component to guide users through a sequence of steps.
-### 
-7. Create Multiple Tabs in React
+### 7. Create Multiple Tabs in React
 
 Design a tabbed interface to organize content into categories.
-### 
-8. Create a Responsive Navbar
+### 8. Create a Responsive Navbar
 
 Design a responsive navigation bar with options for home, about, services, and conta### ct. Ensure it adapts well to different screen sizes.
 
 Implement the responsive navigation bar UI.
 Ensure it collapses into a hamburger menu on smaller screens.
 Add functionality to navigate between pages.
-### 
-9. To-Do List with Local Storage
+### 9. To-Do List with Local Storage
 
 Build a to-do list that allows users to add, edit, and remove tas### ks. Persist the tasks using local storage.
 
