@@ -10,8 +10,7 @@ const ImageGallery = () => {
 
     useEffect(() => {
         fetchImages();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+     }, []);
 
     const fetchImages = async () => {
         setLoading(true);

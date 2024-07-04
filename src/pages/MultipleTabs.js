@@ -40,7 +40,8 @@ const MultipleTabs = () => {
                                 <Card className="shadow-sm" style={{ transition: 'transform 0.3s' }}>
                                     <Card.Img
                                         variant="top"
-                                        src={`images/${image}`}
+                                        // src={`images/${image}`}
+                                        src={`${process.env.PUBLIC_URL}/images/${image}`}
                                         alt={image}
                                         style={{ height: '200px', objectFit: 'cover' }}
                                         onMouseEnter={(e) => (e.currentTarget.parentNode.style.transform = 'scale(1.05)')}
