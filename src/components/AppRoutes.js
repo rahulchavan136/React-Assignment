@@ -6,7 +6,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import { Service } from '../pages/Service';
 import { Contact } from '../pages/Contact';
-import { PageNotFound } from '../pages/PageNotFound';
+import PageNotFound  from '../pages/PageNotFound';
 import Registration from '../auth/Registration';
 import AccordianComponent from '../pages/AccordianComponent';
 import PaginationComponent from '../pages/PaginationComponent';
@@ -22,6 +22,7 @@ const AppRoutes = () => {
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        {/* <Route path="/logout" element={<Login />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Service />} />
         <Route path="/contact" element={<Contact />} />

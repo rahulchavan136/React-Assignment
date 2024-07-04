@@ -20,6 +20,8 @@ const Product = () => {
             });
     }, []);
 
+    console.log("products==>",products);
+    
     const handleFilter = (filters) => {
         const { category, priceRange, rating } = filters;
         let filtered = products;

@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { FaUserAlt } from "react-icons/fa";
+
 
 const NavigationBar = () => {
+    const [loggedIn, setLoggedIn] = useState(false)
+
     return (
-        <Navbar bg="light" expand="lg" collapseOnSelect shadow>
+        <Navbar bg="light" expand="lg" collapseOnSelect shadow='lg'>
             <Container>
                 <Navbar.Brand as={NavLink} to="/" className="fw-bold text-primary">LOGO</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" />
@@ -26,6 +30,7 @@ const NavigationBar = () => {
                             <NavDropdown.Item as={NavLink} to="/infiniteScroll">Infinite Scroll Gallery</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
+                    <Nav.Link as={NavLink} to="/logout" className="fw-bold" onClick={()=>setLoggedIn(true)}> <FaUserAlt style={{ marginBottom: "4px" }} /> {loggedIn ? "Login" : " Logout"}</Nav.Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

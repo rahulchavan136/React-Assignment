@@ -1,9 +1,23 @@
-import React from 'react'
+import React from 'react';
+import { Container, Row, Col, Image } from 'react-bootstrap';
+import { BiErrorCircle } from 'react-icons/bi'; // Example: Using BiErrorCircle icon from react-icons
 
-export const PageNotFound = () => {
+const PageNotFound = () => {
   return (
-    <div className='mt-4 text-center'>
-      <h1>Page Not Found..!</h1>
-    </div>
-  )
-}
+    <Container className="mt-4 text-center">
+      <Row>
+        <Col>
+          <Image
+            src="/images/error_images.png" // Replace with your error image path
+            fluid
+            className="mb-4"
+            alt="Error Image"
+          />
+          <h3><BiErrorCircle className="text-danger" size={38} style={{marginBottom:"4px"}} /> PAGE NOT FOUND ..!</h3>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
+
+export default PageNotFound;
