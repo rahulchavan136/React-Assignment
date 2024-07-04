@@ -4,30 +4,27 @@ import { NavLink } from 'react-router-dom';
 
 const NavigationBar = () => {
     return (
-        <Navbar bg="light" expand="lg" collapseOnSelect className="custom-navbar">
+        <Navbar bg="light" expand="lg" collapseOnSelect shadow>
             <Container>
-                <Navbar.Brand as={NavLink} to="/" className="custom-brand">LOGO</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler" />
-                <Navbar.Collapse id="basic-navbar-nav" className="custom-collapse">
-                    <Nav className="me-auto custom-nav">
-                        <Nav.Link as={NavLink} className="custom-link" to="/">Home</Nav.Link>
-                        <Nav.Link as={NavLink} className="custom-link" to="/about">About</Nav.Link>
-                        <Nav.Link as={NavLink} className="custom-link" to="/services">Services</Nav.Link>
-                        <Nav.Link as={NavLink} className="custom-link" to="/contact">Contact</Nav.Link>
-                    <NavDropdown title="Assignment Lists" id="basic-nav-dropdown">
-                        <NavDropdown.Item  as={NavLink} to="/login"> Login and Signup </NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/registration">Registration form</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/stepper">Stepper</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/">Carousels</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/accordion">Accordian</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/pagination">Pagination</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/multipletabs">Multiple Tabs</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/todo">ToDo List</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/">Responsive Navbar</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/ecommerce">E-commerce Product Filter</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/infiniteScroll">Infinite Scroll Gallery with Lazy Loading</NavDropdown.Item>
-                        {/* <NavDropdown.Divider /> */}
-                    </NavDropdown>
+                <Navbar.Brand as={NavLink} to="/" className="fw-bold text-primary">LOGO</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link as={NavLink} to="/" className="fw-bold">Home</Nav.Link>
+                        <Nav.Link as={NavLink} to="/about" className="fw-bold">About Me</Nav.Link>
+                        <NavDropdown title="React Assignment Lists" id="basic-nav-dropdown" className="fw-bold">
+                            <NavDropdown.Item as={NavLink} to="/login">Login and Signup</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to="/registration">Registration form</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to="/stepper">Stepper</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to="/">Carousels</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to="/accordion">Accordion</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to="/pagination">Pagination</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to="/multipletabs">Multiple Tabs</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to="/todo">ToDo List</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to="/">Responsive Navbar</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to="/ecommerce">E-commerce Product Filter</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to="/infiniteScroll">Infinite Scroll Gallery</NavDropdown.Item>
+                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
