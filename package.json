@@ -29,10 +29,11 @@
     "web-vitals": "^2.1.4",
     "xlsx": "^0.18.5"
   },
+   "homepage": "https://rahulchavan136.github.io/React-Assignment/",
   "scripts": {
     "start": "react-scripts start",
-     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
