@@ -21,10 +21,10 @@ const NavigationBar = () => {
                         <NavDropdown.Item  as={NavLink} to="/">Carousels</NavDropdown.Item>
                         <NavDropdown.Item  as={NavLink} to="/accordion">Accordian</NavDropdown.Item>
                         <NavDropdown.Item  as={NavLink} to="/pagination">Pagination</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/multipleTab">Multiple Tabs</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/multipletabs">Multiple Tabs</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/todo">ToDo List</NavDropdown.Item>
                         <NavDropdown.Item  as={NavLink} to="/">Responsive Navbar</NavDropdown.Item>
                         <NavDropdown.Item  as={NavLink} to="/ecommerce">E-commerce Product Filter</NavDropdown.Item>
-                        <NavDropdown.Item  as={NavLink} to="/todo">ToDo List With Local Storage</NavDropdown.Item>
                         <NavDropdown.Item  as={NavLink} to="/infiniteScroll">Infinite Scroll Gallery with Lazy Loading</NavDropdown.Item>
                         {/* <NavDropdown.Divider /> */}
                     </NavDropdown>

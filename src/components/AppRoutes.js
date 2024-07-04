@@ -11,6 +11,8 @@ import { PageNotFound } from '../pages/PageNotFound';
 import AccordianComponent from '../pages/AccordianComponent';
 import PaginationComponent from '../pages/PaginationComponent';
 import Stepper from '../pages/Stepper';
+import MultipleTabs from '../pages/MultipleTabs';
+import Todo from '../pages/Todo';
   
 const AppRoutes = () => {
   return (
@@ -26,6 +28,10 @@ const AppRoutes = () => {
         <Route path="/accordion" element={<AccordianComponent />} />
         <Route path="/pagination" element={<PaginationComponent />} />
         <Route path="/stepper" element={<Stepper />} />
+        <Route path="/multipletabs" element={<MultipleTabs />} />
+        <Route path="/todo" element={<Todo />} />
+
+
 
 
 
