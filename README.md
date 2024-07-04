@@ -1,78 +1,70 @@
-Project Features
+# Getting Started with Create React App
 
-1. Build User Registration Form
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Create a user registration form with fields for username, email, and password. Validate inputs and display appropriate error messages.
+## Available Scripts
 
-Implement the user registration form UI.
-Validate the form inputs and display error messages.
-Integrate form submission with a mock API call (simulated delay).
-Add a success message upon successful registration.
+In the project directory, you can run:
 
-2. Implement Login and Signup Functionality Using React/Redux
+### `npm start`
 
-Show the dashboard upon successful login.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-3. Implement Carousels Using React
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Design an image carousel that allows users to navigate through a collection of images.
+### `npm test`
 
-React component composition.
-State management.
-Event handling.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-4. Implement Accordion
+### `npm run build`
 
-Design an accordion component that allows users to expand and collapse sections to view content.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Implement the accordion component UI.
-Ensure only one section can be expanded at a time.
-Add animations for smooth transitions.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-5. Implement Pagination
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Build a pagination component that fetches and displays data from an API, showing a fixed number of items per page.
+### `npm run eject`
 
-Implement the pagination component UI.
-Fetch data from a mock API (simulated delay).
-Display a fixed number of items per page and update pagination controls accordingly.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-6. Implement Stepper
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Design a stepper component to guide users through a sequence of steps.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-7. Create Multiple Tabs in React
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Design a tabbed interface to organize content into categories.
+## Learn More
 
-8. Create a Responsive Navbar
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Design a responsive navigation bar with options for home, about, services, and contact. Ensure it adapts well to different screen sizes.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Implement the responsive navigation bar UI.
-Ensure it collapses into a hamburger menu on smaller screens.
-Add functionality to navigate between pages.
+### Code Splitting
 
-9. To-Do List with Local Storage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Build a to-do list that allows users to add, edit, and remove tasks. Persist the tasks using local storage.
+### Analyzing the Bundle Size
 
-Create the to-do list UI with options to add, edit, and delete tasks.
-Implement local storage to persist tasks across page refreshes.
-Add functionality to mark tasks as completed.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-10. E-commerce Product Filter
+### Making a Progressive Web App
 
-Build a product filtering component that allows users to filter products by categories, price range, and ratings.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Implement the product filter UI.
-Add functionality to filter products based on selected criteria.
-Update the product list dynamically.
+### Advanced Configuration
 
-11. Infinite Scroll Gallery with Lazy Loading
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Build an image gallery that loads more images as the user scrolls down the page. Implement lazy loading for improved performance.
+### Deployment
 
-Implement the infinite scroll gallery UI.
-Fetch more images as the user scrolls down the page.
-Implement lazy loading for images.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
