@@ -41,6 +41,7 @@ const MultipleTabs = () => {
                                     <Card.Img
                                         variant="top"
                                         // src={`images/${image}`}
+                                        
                                         src={`${process.env.PUBLIC_URL}/images/${image}`}
                                         alt={image}
                                         style={{ height: '200px', objectFit: 'cover' }}
