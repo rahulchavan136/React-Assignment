@@ -8,7 +8,7 @@ const PageNotFound = () => {
       <Row>
         <Col>
           <Image
-            src="/images/error_images.png" // Replace with your error image path
+            src={`${process.env.PUBLIC_URL}/images/error_images.png`} // Replace with your error image path
             fluid
             className="mb-4"
             alt="Error Image"

@@ -74,6 +74,7 @@ const PaginationComponent = () => {
         {renderPaginationItems()}
         <Pagination.Next onClick={() => paginate(currentPage + 1)} disabled={currentPage === pageNumbers} />
       </Pagination>
+      <br/>
     </Container>
   );
 };
