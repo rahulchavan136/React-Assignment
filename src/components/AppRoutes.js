@@ -18,7 +18,7 @@ import ImageGallery from '../pages/ImageGallary';
 
 const AppRoutes = () => {
   return (
-    <Router>
+    <Router basename='/'>
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
