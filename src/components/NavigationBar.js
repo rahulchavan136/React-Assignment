@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const NavigationBar = () => {
@@ -14,6 +14,20 @@ const NavigationBar = () => {
                         <Nav.Link as={NavLink} className="custom-link" to="/about">About</Nav.Link>
                         <Nav.Link as={NavLink} className="custom-link" to="/services">Services</Nav.Link>
                         <Nav.Link as={NavLink} className="custom-link" to="/contact">Contact</Nav.Link>
+                    <NavDropdown title="Assignment Lists" id="basic-nav-dropdown">
+                        <NavDropdown.Item  as={NavLink} to="/login"> Login and Signup </NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/registration">Registration form</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/stepper">Stepper</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/">Carousels</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/accordion">Accordian</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/pagination">Pagination</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/multipleTab">Multiple Tabs</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/">Responsive Navbar</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/ecommerce">E-commerce Product Filter</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/todo">ToDo List With Local Storage</NavDropdown.Item>
+                        <NavDropdown.Item  as={NavLink} to="/infiniteScroll">Infinite Scroll Gallery with Lazy Loading</NavDropdown.Item>
+                        {/* <NavDropdown.Divider /> */}
+                    </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

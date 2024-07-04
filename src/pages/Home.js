@@ -1,10 +1,14 @@
 import React from 'react';
+import CarouselSlider from './CarouselSlider';
 
 const Home = () => {
   return (
+    <>
     <div>
-      <h1>Home Page</h1>
+      <CarouselSlider />
     </div>
+    <div className='mt-3 text-center'><h1>Dashboard Page</h1></div>
+    </>
   );
 };
 
