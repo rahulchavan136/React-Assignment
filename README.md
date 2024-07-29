@@ -3,6 +3,7 @@
 To access the project, you need to log in with the following credentials:
 
 Username: test@test.com
+
 Password: password
 
 After logging in, you can navigate to the "React Assignment" dropdown tab in the header to view all the React assignments.
