@@ -1,3 +1,13 @@
+### Hosted Project URL: https://rahulchavan136.github.io/React-Assignment/
+
+To access the project, you need to log in with the following credentials:
+
+Username: test@test.com
+Password: password
+
+After logging in, you can navigate to the "React Assignment" dropdown tab in the header to view all the React assignments.
+
+
 Project Features
 ### 1. Build User Registration Form
 
