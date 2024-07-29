@@ -47,10 +47,11 @@ const NavigationBar = () => {
               </>
             )}
           </Nav>
-          {loggedIn ? (
-            <Nav.Link as={NavLink} to="#" className="fw-bold" onClick={handleLogout}>
-              <span style={{ fontSize: "13px", color: "gray" }}>Welcome, {user?.email} &nbsp;&nbsp;&nbsp;</span> <FaUserAlt style={{ marginBottom: "4px" }} /> Logout
+          {loggedIn ? (<>
+            <span style={{ fontSize: "13px", color: "gray" }}>Welcome, {user?.email} &nbsp;&nbsp;&nbsp;</span>
+            <Nav.Link as={NavLink} to="#" className="fw-bold" onClick={handleLogout}><FaUserAlt style={{ marginBottom: "4px" }} /> Logout
             </Nav.Link>
+          </>
           ) : (
             <Nav.Link as={NavLink} to="/login" className="fw-bold">
               <FaUserAlt style={{ marginBottom: "4px" }} /> Login
